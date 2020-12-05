@@ -1,1 +1,0 @@
-# SAP-Finance-Quizzler
