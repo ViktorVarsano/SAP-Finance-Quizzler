@@ -13,6 +13,7 @@
 		D95D21C0257B8C6300CEDA3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D95D21BE257B8C6300CEDA3C /* Main.storyboard */; };
 		D95D21C2257B8C6700CEDA3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D95D21C1257B8C6700CEDA3C /* Assets.xcassets */; };
 		D95D21C5257B8C6700CEDA3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D95D21C3257B8C6700CEDA3C /* LaunchScreen.storyboard */; };
+		D95D21D2257D168900CEDA3C /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95D21D1257D168900CEDA3C /* Question.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D95D21C1257B8C6700CEDA3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D95D21C4257B8C6700CEDA3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D95D21C6257B8C6700CEDA3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D95D21D1257D168900CEDA3C /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				D95D21C1257B8C6700CEDA3C /* Assets.xcassets */,
 				D95D21C3257B8C6700CEDA3C /* LaunchScreen.storyboard */,
 				D95D21C6257B8C6700CEDA3C /* Info.plist */,
+				D95D21D1257D168900CEDA3C /* Question.swift */,
 			);
 			path = "SAP Finance Quizzler";
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D95D21BD257B8C6300CEDA3C /* ViewController.swift in Sources */,
+				D95D21D2257D168900CEDA3C /* Question.swift in Sources */,
 				D95D21B9257B8C6300CEDA3C /* AppDelegate.swift in Sources */,
 				D95D21BB257B8C6300CEDA3C /* SceneDelegate.swift in Sources */,
 			);
