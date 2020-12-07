@@ -17,7 +17,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var choice1: UIButton!
     @IBOutlet weak var choice2: UIButton!
     @IBOutlet weak var choice3: UIButton!
-    
     @IBOutlet weak var choice4: UIButton!
 
     var quizBrain = QuizBrain()
