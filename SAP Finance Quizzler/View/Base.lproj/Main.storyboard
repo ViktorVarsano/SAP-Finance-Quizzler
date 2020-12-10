@@ -22,25 +22,25 @@
                                     <constraint firstAttribute="height" constant="102" id="L0y-Hm-Qyx"/>
                                 </constraints>
                             </imageView>
-                            <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" distribution="fillProportionally" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="NYb-aw-q2N">
+                            <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" distribution="fillProportionally" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="NYb-aw-q2N">
                                 <rect key="frame" x="20" y="44" width="374" height="818"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Go8-VT-cfy">
-                                        <rect key="frame" x="0.0" y="0.0" width="374" height="43"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="45.5"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalCompressionResistancePriority="1000" text="Question Text" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TMI-D5-oFn">
-                                        <rect key="frame" x="0.0" y="53" width="374" height="385"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                        <rect key="frame" x="0.0" y="52.5" width="374" height="240.5"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="26"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XHU-V0-Uxw">
-                                        <rect key="frame" x="0.0" y="448" width="374" height="80"/>
+                                        <rect key="frame" x="0.0" y="300" width="374" height="120"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="80" id="0Ku-ym-LdU"/>
+                                            <constraint firstAttribute="height" constant="120" id="0Ku-ym-LdU"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <inset key="titleEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
@@ -52,9 +52,9 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YlC-r9-UMD">
-                                        <rect key="frame" x="0.0" y="538" width="374" height="80"/>
+                                        <rect key="frame" x="0.0" y="427" width="374" height="120"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="80" id="JoI-ek-vCc"/>
+                                            <constraint firstAttribute="height" constant="120" id="JoI-ek-vCc"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <inset key="titleEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
@@ -66,9 +66,9 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vh4-Ye-A2E">
-                                        <rect key="frame" x="0.0" y="628" width="374" height="80"/>
+                                        <rect key="frame" x="0.0" y="554" width="374" height="120"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="80" id="7HR-af-9fC"/>
+                                            <constraint firstAttribute="height" constant="120" id="7HR-af-9fC"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <inset key="titleEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
@@ -80,9 +80,9 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NWw-qJ-Fkz">
-                                        <rect key="frame" x="0.0" y="718" width="374" height="80"/>
+                                        <rect key="frame" x="0.0" y="681" width="374" height="120"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="80" id="Q9T-8s-bws"/>
+                                            <constraint firstAttribute="height" constant="120" id="Q9T-8s-bws"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <inset key="titleEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
