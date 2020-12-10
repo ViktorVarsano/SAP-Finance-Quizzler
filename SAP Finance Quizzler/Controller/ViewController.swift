@@ -9,10 +9,8 @@ import UIKit
 
 class ViewController: UIViewController {
     @IBOutlet weak var scoreLabel: UILabel!
-    
     @IBOutlet weak var questionLabel: UILabel!
     @IBOutlet weak var progressBar: UIProgressView!
-    
 
     @IBOutlet weak var choice1: UIButton!
     @IBOutlet weak var choice2: UIButton!
@@ -20,7 +18,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var choice4: UIButton!
 
     var quizBrain = QuizBrain()
- 
+
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -55,7 +54,23 @@ class ViewController: UIViewController {
         choice2.setTitle(answerChoices[1], for: .normal)
         choice3.setTitle(answerChoices[2], for: .normal)
         choice4.setTitle(answerChoices[3], for: .normal)
+        
+        choice1.titleLabel?.adjustsFontSizeToFitWidth = true
+        choice1.titleLabel?.minimumScaleFactor = 0.20
+        choice1.titleLabel?.numberOfLines = 0
 
+        choice2.titleLabel?.adjustsFontSizeToFitWidth = true
+        choice2.titleLabel?.minimumScaleFactor = 0.20
+        choice2.titleLabel?.numberOfLines = 0
+
+        choice3.titleLabel?.adjustsFontSizeToFitWidth = true
+        choice3.titleLabel?.minimumScaleFactor = 0.20
+        choice3.titleLabel?.numberOfLines = 0
+
+        choice4.titleLabel?.adjustsFontSizeToFitWidth = true
+        choice4.titleLabel?.minimumScaleFactor = 0.20
+        choice4.titleLabel?.numberOfLines = 0
+        
         progressBar.progress = quizBrain.getProgress()
         scoreLabel.text = "Score: \(quizBrain.getScore())"
         
